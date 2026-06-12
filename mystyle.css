@@ -1,0 +1,133 @@
+*{
+	scroll-behavior: smooth;
+}
+.main{
+	background-image: url(images/main.jpg);
+	padding: 50px;
+	background-size: cover;
+	color: white;
+	font-size: 35px;
+	font-family: impact;
+	background-attachment: fixed;
+}
+.big{
+	font-size: 30px;
+	font-family: "Cinzel";
+	text-decoration: none;
+	color: orangered;
+	letter-spacing: 4px;
+}
+.hover-text {
+	font-size: 30px;
+	font-family: "Cinzel";
+	text-decoration: none;
+	color: orangered;
+	letter-spacing: 4px;
+ 	transition: transform 0.2s ease;
+ 	display: inline-block;
+}
+.hover-text:hover {
+  transform: scale(1.15);
+}
+.small{
+	font-size: 18px;
+	font-family: calibri;
+	color: lightgray;
+	text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.sm{
+	font-size: 28px;
+	font-family: calibri;
+}
+.cl{
+	color: orangered;
+	font-size: 45px;
+	font-family: impact;
+}
+.des{
+	font-family: Haettenschweiler;
+	font-size: 35px;
+	letter-spacing: 10px;
+	animation: shake 0.8s infinite;
+	color: darkred;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+.sin{
+	font-size: 22px;
+	text-align: justify;
+}
+.pride{
+	font-size: 28px;
+	font-family: "Times New Roman";
+}
+.envy{
+	font-size: 28px;
+	font-family: calibri;
+}
+.wrath{
+	font-size: 28px;
+	font-family: "BPG Banner QuadroSquare Caps";
+}
+.gluttony{
+	font-size: 28px;
+}
+.lust{
+	font-size: 28px;
+	font-family: 'Brush Script MT';
+}
+.sloth{
+	font-size: 28px;
+}
+.regBox{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+.regTitle{
+	color: purple;
+    font-size: 24px;
+    font-family: "BPG Banner QuadroSquare Caps";
+    margin: auto;
+}
+.forma input[type=text], .forma input[type=password]{
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    color:red;
+}
+
+.formButton{
+    width: 40%;
+    background-color: rgb(248, 247, 247);
+    text-align: center;
+    padding: 30px;
+    margin:auto;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.con1{
+	text-decoration: underline;
+	font-size: 22px;
+}
+.con2{
+	font-size: 22px;
+	color: darkgray;
+}
+.ok{
+	margin-left: 30px;
+	text-decoration: underline;
+	font-size: 22px;
+}
+.last{
+	color: gray;
+	font-size: 20px;
+	margin-left: 70px;
+}
