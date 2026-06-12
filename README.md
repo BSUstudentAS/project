@@ -1,2 +1,2 @@
 # project
-I made during night, it was much funnier in my head.
+I made it during night, it was much funnier in my head.
