@@ -40,6 +40,12 @@
 	font-size: 28px;
 	font-family: calibri;
 }
+.tb{
+	background-color: pink;
+	width: 30%;
+	padding: 10px;
+	border-radius: 15px;
+}
 .cl{
 	color: orangered;
 	font-size: 45px;
@@ -55,13 +61,18 @@
 
 @keyframes shake {
   0% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  50% { transform: translateX(5px); }
-  75% { transform: translateX(-5px); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-3px); }
   100% { transform: translateX(0); }
+}
+.tb2{
+	width: 80%;
+	border-spacing: 40px;
 }
 .sin{
 	font-size: 22px;
+	border-radius: 15px;
 	text-align: justify;
 }
 .pride{
@@ -112,10 +123,6 @@
     margin:auto;
     border-radius: 10px;
     font-size: 30px;
-}
-.con1{
-	text-decoration: underline;
-	font-size: 22px;
 }
 .con2{
 	font-size: 22px;
